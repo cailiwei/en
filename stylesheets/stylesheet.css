@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: #151515 url("../images/bkg.png") 0 0;
-  color: #eaeaea;
+  background: #eaeaea; /* url("../images/bkg.png") 0 0; */
+  color: #151515;
   font: 16px;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -10,9 +10,28 @@ body {
 
 /* General & 'Reset' Stuff */
 
-.container {
-  width: 90%;
-  max-width: 800px;
+#container {
+  background:url(../images/gradient.jpg);
+  position:relative;
+  width:100%;
+  height:150px;
+  margin: 0 auto;
+}
+
+#overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:150px;
+  background:url(../images/overlay.png);
+}
+
+#content {
+/*background:url(../images/gradient.jpg); */
+  position:relative;
+  width:1000px;
+  height:100px;
   margin: 0 auto;
 }
 
@@ -38,7 +57,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px dashed #a5d843;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -49,7 +68,7 @@ header h1 {
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: #b5e853;
+  color: #a5d843;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
