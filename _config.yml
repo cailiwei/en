@@ -1,3 +1,6 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+name: 博客之家
+site_language: "zh-cn"
+url: http://www.cailiwei.com.cn/en
+baseurl: http://www.cailiwei.com.cn/en
+markdown: kramdown
 pygments: true
