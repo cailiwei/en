@@ -11,10 +11,10 @@ pygments: true
 title : 博客之家
 tagline: Site Tagline
 author :
-  name : Vicky Levy
+  name : VickyWang
   email : vickywang1213@gmail.com
   github : fbhlw
-  twitter : Levycai
+  twitter : cailiwei516
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : Levy 
+      short_name : vickywang
     livefyre :
       site_id : 123
     intensedebate :
@@ -100,7 +100,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-42340897-1'
     getclicky :
       site_id : 
     mixpanel :
